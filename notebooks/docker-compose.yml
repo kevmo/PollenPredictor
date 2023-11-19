@@ -1,0 +1,9 @@
+version: '3'
+services:
+  notebook:
+    image: pollenpredictor-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - /path/to/your/notebooks:/usr/src/app/notebooks
+      - /path/to/your/data:/usr/src/app/data
