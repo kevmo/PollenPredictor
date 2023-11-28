@@ -1,7 +1,8 @@
 # Project-Specific
 **/data/
 
-models/models/*.h5
+**/*.h5
+**/*.tflite
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
